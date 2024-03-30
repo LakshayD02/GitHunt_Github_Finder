@@ -1,0 +1,22 @@
+.brand {
+  padding: 0px !important;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #050050b4, #000000, #050050, #000000, #050050);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
